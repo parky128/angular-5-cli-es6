@@ -1,0 +1,39 @@
+{
+  "name": "angular5-es6-test",
+  "version": "1.0.0",
+  "license": "MIT",
+  "angular-cli": {},
+  "scripts": {
+    "ng": "ng",
+    "build": "ng build --prod",
+    "start": "ng serve",
+    "test": "ng test",
+    "lint": "tslint ./src/**/*.ts -t verbose",
+    "e2e": "ng e2e"
+  },
+  "dependencies": {
+    "@alertlogic/session": "0.2.0",
+    "@alertlogic/client": "0.2.0",
+    "@alertlogic/aims": "0.2.0",
+    "@angular/animations": "~5.2.7",
+    "@angular/common": "~5.2.7",
+    "@angular/compiler": "~5.2.7",
+    "@angular/compiler-cli": "~5.2.7",
+    "@angular/core": "~5.2.7",
+    "@angular/forms": "~5.2.7",
+    "@angular/http": "~5.2.7",
+    "@angular/platform-browser": "~5.2.7",
+    "@angular/platform-browser-dynamic": "~5.2.7",
+    "@angular/platform-server": "~5.2.7",
+    "@angular/router": "~5.2.7",
+    "core-js": "2.5.2",
+    "rxjs": "^5.5.8",
+    "zone.js": "^0.8.25"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.6.8",
+    "@types/angular": "^1.6.43",
+    "tslint": "^5.4.3",
+    "typescript": "~2.4.0"
+  }
+}
